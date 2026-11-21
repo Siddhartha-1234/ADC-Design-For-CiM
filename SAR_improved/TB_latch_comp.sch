@@ -92,14 +92,14 @@ C {lab_pin.sym} 210 250 0 0 {name=l22 sig_type=std_logic lab=0}
 C {vsource.sym} 380 200 0 0 {name=V5 value="PWL(0 0.38 2u 0.42)" savecurrent=false}
 C {lab_pin.sym} 380 150 0 0 {name=l23 sig_type=std_logic lab=INP1}
 C {lab_pin.sym} 380 250 0 0 {name=l24 sig_type=std_logic lab=0}
-C {vsource.sym} 550 200 0 0 {name=V6 value="0.41" savecurrent=false}
+C {vsource.sym} 550 200 0 0 {name=V6 value="0.40005" savecurrent=false}
 C {lab_pin.sym} 550 150 0 0 {name=l25 sig_type=std_logic lab=INP2}
 C {lab_pin.sym} 550 250 0 0 {name=l26 sig_type=std_logic lab=0}
 C {code_shown.sym} -450 -740 0 0 {name=s1 only_toplevel=false value=".lib /home/ttuser/pdk/sky130A/libs.tech/combined/sky130.lib.spice tt
 .option method=gear reltol=1e-4
 .control
 save all
-tran 10p 2u
+tran 10p 1u
 * offset of x1: input where the decision changes (ramp 0.2 mV per clock)
 meas tran vtrip find v(INP1) when v(OUT1)=0.9 rise=1 td=30n
 let offset_mV = (vtrip - 0.4)*1000
@@ -117,4 +117,5 @@ print e_fJ
 plot v(CLK) v(x2.X)+2 v(x2.Y)+2 v(OUT2)+4 v(x2.P)+6 v(x2.Q)+8
 plot v(INP1) v(INN)
 plot v(OUT1)
+plot v(OUT2)
 .endc"}

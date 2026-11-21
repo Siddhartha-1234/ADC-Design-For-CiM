@@ -12,8 +12,6 @@ T {0 for codes 2, 3} 490 462 0 0 0.22 0.22 {}
 T {D2 = T4} 930 12 0 0 0.22 0.22 {}
 T {D1 = T6 + T2·~T4} 940 182 0 0 0.22 0.22 {}
 T {D0 = T1·~T2 + T3·~T4 + T5·~T6 + T7} 950 392 0 0 0.22 0.22 {}
-T {Level 2: NAND2 edge detectors} 330 -90 0 0 0.3 0.3 {}
-T {Level 3: outputs} 800 -90 0 0 0.3 0.3 {}
 T {Thermometer (T1..T7) to 3-bit binary encoder, gate level.  Same logic and pins as before, now built from the inv, nand2 and nand4 cells.
 D2 = T4      D1 = T6 + T2·~T4      D0 = T1·~T2 + T3·~T4 + T5·~T6 + T7   (NAND-NAND = AND-OR by De Morgan)
 5 inverters + 5 NAND2 + 1 NAND4 = 38 transistors, 3 gate delays on the longest path.} -400 -260 0 0 0.3 0.3 {}

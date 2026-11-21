@@ -5,14 +5,14 @@ K {}
 V {}
 S {}
 E {}
-N 400 1120 400 1150 {}
-N 400 1210 400 1240 {}
-N 1100 1120 1100 1150 {}
-N 1100 1210 1100 1240 {}
-N 1800 1120 1800 1150 {}
-N 1800 1210 1800 1240 {}
-N 2500 1120 2500 1150 {}
-N 2500 1210 2500 1240 {}
+N 640 380 640 410 {}
+N 640 470 640 500 {}
+N 1340 380 1340 410 {}
+N 1340 470 1340 500 {}
+N 2040 380 2040 410 {}
+N 2040 470 2040 500 {}
+N 2740 380 2740 410 {}
+N 2740 470 2740 500 {}
 N 500 0 500 880 {}
 N 1200 0 1200 800 {}
 N 1900 0 1900 810 {}
@@ -121,18 +121,18 @@ C {lab_pin.sym} 2400 740 0 0 {name=p108 sig_type=std_logic lab=WL3}
 C {lab_pin.sym} 2400 760 0 0 {name=p109 sig_type=std_logic lab=BL3}
 C {lab_pin.sym} 2400 780 0 0 {name=p110 sig_type=std_logic lab=BLB3}
 C {lab_pin.sym} 2400 800 0 0 {name=p111 sig_type=std_logic lab=RIN3}
-C {res.sym} 400 1180 0 0 {name=RL0 value=250 footprint=1206 device=resistor m=1}
-C {lab_pin.sym} 400 1120 0 0 {name=p113 sig_type=std_logic lab=CL0}
-C {lab_pin.sym} 400 1240 0 0 {name=p114 sig_type=std_logic lab=VSS}
-C {res.sym} 1100 1180 0 0 {name=RL1 value=250 footprint=1206 device=resistor m=1}
-C {lab_pin.sym} 1100 1120 0 0 {name=p115 sig_type=std_logic lab=CL1}
-C {lab_pin.sym} 1100 1240 0 0 {name=p116 sig_type=std_logic lab=VSS}
-C {res.sym} 1800 1180 0 0 {name=RL2 value=250 footprint=1206 device=resistor m=1}
-C {lab_pin.sym} 1800 1120 0 0 {name=p117 sig_type=std_logic lab=CL2}
-C {lab_pin.sym} 1800 1240 0 0 {name=p118 sig_type=std_logic lab=VSS}
-C {res.sym} 2500 1180 0 0 {name=RL3 value=250 footprint=1206 device=resistor m=1}
-C {lab_pin.sym} 2500 1120 0 0 {name=p119 sig_type=std_logic lab=CL3}
-C {lab_pin.sym} 2500 1240 0 0 {name=p120 sig_type=std_logic lab=VSS}
+C {res.sym} 640 440 0 0 {name=RL0 value=250 footprint=1206 device=resistor m=1}
+C {lab_pin.sym} 640 380 0 0 {name=p113 sig_type=std_logic lab=CL0}
+C {lab_pin.sym} 640 500 0 0 {name=p114 sig_type=std_logic lab=VSS}
+C {res.sym} 1340 440 0 0 {name=RL1 value=250 footprint=1206 device=resistor m=1}
+C {lab_pin.sym} 1340 380 0 0 {name=p115 sig_type=std_logic lab=CL1}
+C {lab_pin.sym} 1340 500 0 0 {name=p116 sig_type=std_logic lab=VSS}
+C {res.sym} 2040 440 0 0 {name=RL2 value=250 footprint=1206 device=resistor m=1}
+C {lab_pin.sym} 2040 380 0 0 {name=p117 sig_type=std_logic lab=CL2}
+C {lab_pin.sym} 2040 500 0 0 {name=p118 sig_type=std_logic lab=VSS}
+C {res.sym} 2740 440 0 0 {name=RL3 value=250 footprint=1206 device=resistor m=1}
+C {lab_pin.sym} 2740 380 0 0 {name=p119 sig_type=std_logic lab=CL3}
+C {lab_pin.sym} 2740 500 0 0 {name=p120 sig_type=std_logic lab=VSS}
 C {ipin.sym} -400 -500 0 0 {name=i1 lab=VCC}
 C {ipin.sym} -400 -470 0 0 {name=i2 lab=VSS}
 C {ipin.sym} -400 -440 0 0 {name=i3 lab=WL0}
